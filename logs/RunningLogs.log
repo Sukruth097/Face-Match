@@ -1,0 +1,91 @@
+[2022-05-19 19:07:13,425: INFO: generate_img_pkl]: >>>>> Stage01 Stared
+[2022-05-19 19:07:13,425: ERROR: generate_img_pkl]: local variable 'content' referenced before assignment
+Traceback (most recent call last):
+  File "src/generate_img_pkl.py", line 45, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,param_path=parsed_args.params)
+  File "src/generate_img_pkl.py", line 21, in generate_data_pickle_file
+    config = read_yaml(config_path)
+  File "c:\users\sukrav\downloads\facesimilarity project\src\utils\all_utils.py", line 7, in read_yaml
+    content = yaml.safe_load(content)
+UnboundLocalError: local variable 'content' referenced before assignment
+[2022-05-19 19:08:07,793: INFO: generate_img_pkl]: >>>>> Stage01 Stared
+[2022-05-19 19:08:07,799: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:08:07,799: INFO: generate_img_pkl]: Stage01 Completed <<<<<
+
+[2022-05-19 19:18:35,919: INFO: generate_img_pkl]: >>>>> Stage01 Stared
+[2022-05-19 19:18:35,924: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:18:35,961: INFO: generate_img_pkl]: Stage01 Completed <<<<<
+
+[2022-05-19 19:22:43,718: INFO: generate_img_pkl]: >>>>> Stage01 Stared
+[2022-05-19 19:22:43,724: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:22:43,834: INFO: generate_img_pkl]: Stage01 Completed <<<<<
+[2022-05-19 19:24:11,407: INFO: generate_img_pkl]: >>>>> Stage01 Stared
+[2022-05-19 19:24:11,412: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:24:11,525: INFO: generate_img_pkl]: Stage01 Completed <<<<<
+[2022-05-19 19:25:46,069: INFO: generate_img_pkl]: >>>>> Stage01 Stared
+[2022-05-19 19:25:46,069: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:25:46,191: INFO: generate_img_pkl]: Stage01 Completed <<<<<
+[2022-05-19 19:27:31,665: INFO: generate_img_pkl]: >>>>> Stage01 Stared
+[2022-05-19 19:27:31,667: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:27:31,784: INFO: generate_img_pkl]: Stage01 Completed <<<<<
+
+[2022-05-19 19:34:44,760: INFO: generate_img_pkl]: >>>>> stage_01 started
+[2022-05-19 19:34:44,765: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:34:44,962: INFO: generate_img_pkl]: Total actress are: 100
+[2022-05-19 19:34:44,962: INFO: generate_img_pkl]: Total actress images: 8664
+[2022-05-19 19:34:44,969: INFO: generate_img_pkl]: stage_01 completed!>>>>>
+
+[2022-05-19 19:37:17,542: INFO: generate_img_pkl]: >>>>> stage_01 started
+[2022-05-19 19:37:17,547: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:37:17,729: INFO: generate_img_pkl]: Total actors are: 100
+[2022-05-19 19:37:17,729: INFO: generate_img_pkl]: Total actors images are: 8664
+[2022-05-19 19:37:17,738: INFO: generate_img_pkl]: stage_01 completed!<<<<<
+
+
+[2022-05-19 19:38:24,238: INFO: generate_img_pkl]: >>>>> stage_01 started
+[2022-05-19 19:38:24,247: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:38:24,415: INFO: generate_img_pkl]: Total actors are: 100
+[2022-05-19 19:38:24,415: INFO: generate_img_pkl]: Total actors images are: 8664
+[2022-05-19 19:38:24,415: INFO: generate_img_pkl]: stage_01 completed!<<<<<
+
+[2022-05-19 19:40:13,538: INFO: generate_img_pkl]: >>>>> stage_01 started
+[2022-05-19 19:40:13,538: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:40:13,708: INFO: generate_img_pkl]: Total actors are: 100
+[2022-05-19 19:40:13,708: INFO: generate_img_pkl]: Total actors images are: 8664
+[2022-05-19 19:40:13,709: INFO: generate_img_pkl]: stage_01 completed!<<<<<
+
+[2022-05-19 19:40:25,907: INFO: generate_img_pkl]: >>>>> stage_01 started
+[2022-05-19 19:40:25,907: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 19:40:26,087: INFO: generate_img_pkl]: Total actors are: 100
+[2022-05-19 19:40:26,087: INFO: generate_img_pkl]: Total actors images are: 8664
+[2022-05-19 19:40:26,087: INFO: generate_img_pkl]: stage_01 completed!<<<<<
+
+[2022-05-19 20:40:20,931: INFO: feature_extractor]: >>>>> Stage_02 Started
+[2022-05-19 20:41:37,129: ERROR: feature_extractor]: 'extracted_features_name'
+Traceback (most recent call last):
+  File "src/feature_extractor.py", line 84, in <module>
+    feature_extractor(config_path = parsed_args.config, params_path= parsed_args.params)
+  File "src/feature_extractor.py", line 61, in feature_extractor
+    extracted_features_name = artifacts['extracted_features_name']
+KeyError: 'extracted_features_name'
+
+[2022-05-19 20:43:55,063: INFO: feature_extractor]: >>>>> Stage_02 Started
+[2022-05-19 20:43:57,667: INFO: all_utils]: Created Directory at artifacts\extracted_features 
+[2022-05-19 21:17:21,302: INFO: generate_img_pkl]: >>>>> Stage_01 Started
+[2022-05-19 21:17:21,309: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 21:17:21,631: INFO: generate_img_pkl]: Total actors are: 100
+[2022-05-19 21:17:21,632: INFO: generate_img_pkl]: Total actor's images are: 8664
+[2022-05-19 21:17:21,641: INFO: generate_img_pkl]: Stage_01 Completed!<<<<<
+
+[2022-05-19 21:17:26,112: INFO: feature_extractor]: >>>>> Stage_02 Started
+[2022-05-19 21:17:28,464: INFO: all_utils]: Created Directory at artifacts\extracted_features 
+[2022-05-19 21:41:55,565: INFO: feature_extractor]: Stage_02 Completed!<<<<<
+[2022-05-19 22:51:09,212: INFO: generate_img_pkl]: >>>>> Stage_01 Started
+[2022-05-19 22:51:09,215: INFO: all_utils]: Created Directory at artifacts\pickle_format_data 
+[2022-05-19 22:51:09,418: INFO: generate_img_pkl]: Total actors are: 100
+[2022-05-19 22:51:09,418: INFO: generate_img_pkl]: Total actor's images are: 8660
+[2022-05-19 22:51:09,421: INFO: generate_img_pkl]: Stage_01 Completed!<<<<<
+
+[2022-05-19 22:51:14,900: INFO: feature_extractor]: >>>>> Stage_02 Started
+[2022-05-19 22:51:17,432: INFO: all_utils]: Created Directory at artifacts\extracted_features 
+[2022-05-19 23:16:56,115: INFO: feature_extractor]: Stage_02 Completed!<<<<<

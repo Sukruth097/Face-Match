@@ -1,0 +1,7 @@
+artifacts: # This yaml file is used to set the path for both input n external data n their pkl's respectively
+  artifacts_dir: artifacts                    # 1st three paths are for input data converted to pkl
+  pickle_format_data_dir: pickle_format_data
+  img_pickle_file_name: actors.pkl
+  feature_extraction_dir: extracted_features  # Last two paths are for external data converted to pkl 
+  extracted_features_name: embeddings.pkl
+  upload_image_dir: uploads
