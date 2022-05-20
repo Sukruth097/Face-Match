@@ -25,18 +25,13 @@ https://www.kaggle.com/sushilyadav1998/bollywood-celeb-localized-face-dataset
 
 Web app look
 
-<img src="demo/1.png" alt="workflow" width="70%">
+![image](https://user-images.githubusercontent.com/65019778/169478823-332110b9-0aaa-412d-a6de-a6c8bb83bac4.png)
 
 Lets check some of images
 
-<img src="demo/2.png" alt="workflow" width="70%">
+![WhatsApp Image 2022-05-19 at 10 05 35 PM](https://user-images.githubusercontent.com/65019778/169477875-cf6f4f8d-9f38-446d-ace2-dad428c0bdfc.jpeg)
 
-<img src="demo/3.png" alt="workflow" width="70%">
-
-This really performing good you can consider by seeing this result 😀
-
-<img src="demo/4.png" alt="workflow" width="70%">
-
+![image](https://user-images.githubusercontent.com/65019778/169477982-9a5f0e53-1273-478b-84be-17dee35028d2.png)
 
 
 # STEPS to run this project:
