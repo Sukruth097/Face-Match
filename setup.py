@@ -7,7 +7,7 @@ setup(
     description="A small package for Which Bollywood Celebrity You look like? Deep Learning Project",
     #long_description=long_description,
     #long_description_content_type="text/markdown",
-    #url="https://github.com/entbappy/Which-Bollywood-Celebrity-You-look-like",
+    #url="https://github.com/Sukruth097/Face-Match",
     author_email="sukruthav007@gmail.com",
     packages=["src"],
     python_requires=">=3.7",
