@@ -42,7 +42,7 @@ You can also use others images instead of bollywood actorss
 Clone the repository
 
 ```bash
-git clone https://github.com/entbappy/Which-Bollywood-Celebrity-You-look-like.git
+git clone https://github.com/Sukruth097/Face-Match.git
 ```
 
 ## STEP 02: 
